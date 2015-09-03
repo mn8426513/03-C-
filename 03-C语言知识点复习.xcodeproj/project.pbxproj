@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0448BD4919AEB448000D9FB1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448BD4819AEB448000D9FB1 /* main.c */; };
+		0448BD5119AEB6A4000D9FB1 /* two.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448BD4F19AEB6A4000D9FB1 /* two.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0448BD4519AEB448000D9FB1 /* 03-C语言知识点复习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-C语言知识点复习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0448BD4819AEB448000D9FB1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0448BD4F19AEB6A4000D9FB1 /* two.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = two.c; sourceTree = "<group>"; };
+		0448BD5019AEB6A4000D9FB1 /* two.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = two.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0448BD4819AEB448000D9FB1 /* main.c */,
+				0448BD4F19AEB6A4000D9FB1 /* two.c */,
+				0448BD5019AEB6A4000D9FB1 /* two.h */,
 			);
 			path = "03-C语言知识点复习";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0448BD5119AEB6A4000D9FB1 /* two.c in Sources */,
 				0448BD4919AEB448000D9FB1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
